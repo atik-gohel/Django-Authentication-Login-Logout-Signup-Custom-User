@@ -10,34 +10,6 @@ Django Authentication – How to build Login/Logout/Signup for custom User
 
 <p>In this tutorial, we’re gonna look at way to customize authentication in Django (version 3.1.7) using subclass of <code>AbstractBaseUser</code>: <code>AbstractUser</code>. All User authentication data will be stored in <strong>MySQL</strong> database that we’ll show you how to config the datasource.<p>
 
-<div  >
-  <p>Contents</p>
-  <ul >
-    <li>
-      <a href="#" >
-        1.
-      </a>
-      <ul>
-        <li>
-          <a href="#">
-            a.
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            b.
-          </a>
-        </li>        
-      </ul>
-    </li>
-    <li>
-      <a href="">
-       2.
-      </a>
-    </li>
-  </ul>
-</div>
-
 <h2  padding-bottom: .3em><span id="Django_Custom_Authentication_Project_overview" >Django Custom Authentication Project overview</span></h2>
 
 We will build a Dajngo Project with Authentication app that has login/logout/signup with custom fields such as <strong>full name</strong> and <strong>age</strong>:

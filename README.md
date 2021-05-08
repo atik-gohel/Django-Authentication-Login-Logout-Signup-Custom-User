@@ -330,7 +330,7 @@ urlpatterns = [
 ]
 </pre>
 
-<p>Using <code>auth_views.LogoutView</code> helps us handle logout request automatically, we only need to call <code>{% url 'logout' %}</code> where we want to make logout event in the HTML template.</p>
+<p> Using <code>auth_views.LogoutView</code> helps us handle logout request automatically, we only need to call <code>{% url 'logout' %}</code> where we want to make logout event in the HTML template. </p>
 
 <p>The next step is to specify where to redirect the user upon a successful login/logout.<br> Open project <strong><em>setting.py</em></strong>, then set values for <code>LOGIN_REDIRECT_URL</code> and <code>LOGOUT_REDIRECT_URL</code>:</p>
 
